@@ -19,7 +19,7 @@ class AppTheme {
         onSurface: AppColors.darkText,
         onBackground: AppColors.darkText,
       ),
-      cardTheme: const CardTheme(
+      cardTheme: const CardThemeData(
         color: AppColors.white,
         elevation: 0,
         shape: RoundedRectangleBorder(borderRadius: AppRadii.largeBorderRadius),
@@ -48,7 +48,7 @@ class AppTheme {
         onSurface: AppColors.darkTextMain,
         onBackground: AppColors.darkTextMain,
       ),
-      cardTheme: const CardTheme(
+      cardTheme: const CardThemeData(
         color: AppColors.darkSurface,
         elevation: 0,
         shape: RoundedRectangleBorder(borderRadius: AppRadii.largeBorderRadius),
